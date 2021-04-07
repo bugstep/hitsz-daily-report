@@ -17,5 +17,5 @@
    | GRADUATING | 是否毕业生班：是 `1` ，否 `0` <sup>默认</sup> |
    | API_KEY | Server 酱推送的 `sckey` <sup>[如何申请？](http://sc.ftqq.com/)</sup> |
 3. 开启 Github Actions <sup>[如何开启？](./how-to-enable-actions)</sup>
-4. 每天早上 7:00 <sup>23:00 UTC</sup> 定时自动运行  
+4. 每天凌晨 0:15 <sup>16:15 UTC</sup> 定时自动运行  
    如果填写 `API_KEY` ，即可在微信上收到运行结果推送
