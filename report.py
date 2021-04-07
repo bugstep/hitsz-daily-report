@@ -5,6 +5,7 @@ import requests
 from requests.utils import dict_from_cookiejar
 from lxml import etree
 import json
+import time
 import random
 import datetime
 import argparse
@@ -140,6 +141,7 @@ def main(args):
 
 if __name__ == '__main__':
     arguments = parser.parse_args()
+    time.sleep(random.randint(0, 60))
 
     try:
         main(arguments)
